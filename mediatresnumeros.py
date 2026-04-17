@@ -1,7 +1,10 @@
-num1 = int(input("digite o valor do primeiro número: "))
-num2 = int(input("digite o valor do segundo número: "))
-num3 = int(input("digite o valor do terceiro número: "))
+nota1 = float(input("digite o valor da sua primeira nota: "))
+nota2 = float(input("digite o valor da sua segunda nota: "))
+nota3 = float(input("digite o valor da sua terceira nota: "))
 
-media = (num1+num2+num3)/3
+media = (nota1+nota2+nota3)/3
 
-print(f"o valor da média é: {media}")
+if media >= 7:
+    print(f"Você está aprovado! Sua média é: {media :.1f}")
+else:
+    print(f"Você está reprovado! Sua média é: {media:.1f}")

@@ -16,11 +16,11 @@ imc = peso/(altura**2)
 
 if imc < 18.5:
     print("Magreza")
-elif 18.5 <= imc <= 24.9:
+elif imc < 25:
     print(f"peso normal, seu imc é: {imc :.2f}")
-elif 25.0<= imc <= 29.9:
+elif imc < 30:
     print(f"sobrepeso, seu imc é: {imc :.2f}")
-elif 30.0 <= imc <= 39.9:
-    print(f"obesidade, seu imc é: {imc :.2f} ")
-else: 
-    print(f"obesidade grave. seu imc é: {imc :.2f}")
+elif imc < 40:
+    print(f"obesidade, seu imc é: {imc :.2f}")
+else:
+    print(f"obesidade grave, seu imc é: {imc :.2f}")

@@ -1,6 +1,6 @@
 #calculadora imc
 print("""
-      ----------- Tabela de IMC -----------
+----------- Tabela de IMC -----------
 
 menor que 18.5       | magreza
 entre 18.5 e 24.9    | peso normal

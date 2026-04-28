@@ -1,6 +1,7 @@
 preçototal = float(input("Digite o valor total da compra: "))
 if preçototal <= 0:
     print("Valor inválido.")
+    exit()
 else:
     print("""
 Formas de pagamento

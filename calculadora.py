@@ -19,4 +19,7 @@ else:
     elif opcao == 3:
         print(f"O resultado da sua operação é: {num1*num2}")
     elif opcao == 4:
-        print(f"O resultado da sua operação é: {num1/num2}")
+        if num2 != 0:
+            print(f"O resultado da sua operação é: {num1/num2}")
+        else:
+            print("Não é possível dividir por zero.")
